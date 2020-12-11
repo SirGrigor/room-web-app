@@ -15,6 +15,7 @@ public class ApiController {
 
     @Autowired
     public ApiController(RoomServices roomServices) {
+        super();
         this.roomServices = roomServices;
     }
 
